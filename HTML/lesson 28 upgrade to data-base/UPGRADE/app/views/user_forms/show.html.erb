@@ -1,0 +1,16 @@
+<p>
+Имя: <%= @userform.name %><br>
+Фамилия: <%= @userform.surname %><br>
+Дата рождения: <%= @userform.date %><br>
+Страна происхождения: <%= @userform.country %><br>
+Интресы: <b class="lang"><i><%= @userform.html %>
+                            <%= @userform.javascript %>
+                            <%= @userform.php %>
+                            <%= @userform.css %></i></b><br>
+Email: <%= @userform.email %><br>
+Password: <%= @userform.password %><br>
+Уведомления: <%= @userform.notification%><br>
+Ваше мнение о Codifun: <%= @userform.review %><br>
+</p>
+
+<%= link_to 'Удалить', user_form_path(@userform), method: :delete, data: { confirm: 'Вы уверены?'}, :class => 'btn btn-danger' %>

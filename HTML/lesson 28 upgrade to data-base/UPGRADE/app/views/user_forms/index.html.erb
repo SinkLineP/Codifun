@@ -1,0 +1,8 @@
+
+<% @userforms.each do |user| %>
+    <h1>Имя: <%= user[:name] %></h1>
+    <small>Фамилия: <%= user[:surname] %></small><br>
+    <a href="<%= user_form_path(user) %>"><button>Просмотр</button></a>
+    <hr>
+<% end %>
+

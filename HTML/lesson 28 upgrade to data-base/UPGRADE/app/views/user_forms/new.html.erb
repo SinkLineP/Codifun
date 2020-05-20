@@ -1,25 +1,25 @@
 <center><h1>Форма с личными данными</h1></center>
-<form action="./forms.html" method="POST" role="form">
+<form action="/user_forms" method="POST">
     <div>
         <label>Имя:</label>
         <br>
-        <input name="name" type="text">
+        <input name="form[name]" type="text" params="title">
     </div><br>
     
     <div>
         <label>Фамилия:</label>
         <br>
-        <input name="surname" type="text">
+        <input name="form[surname]" type="text">
     </div><br>
     
     <div>
         <label>Дата рождения:</label>
-        <input name="date" type="date">
+        <input name="form[date]" type="date">
     </div><br>
     
     <div>
         <label>Страна происхождения</label>
-        <select id="country" name="country">
+        <select id="country" name="form[country]">
             <option value="Не Выбрано">Не Выбрано</option>
             <option value="Afghanistan">Afghanistan</option>
             <option value="Åland Islands">Åland Islands</option>
@@ -270,32 +270,32 @@
     
     <div>
         <label>Интересы:</label><br>
-        <input type="checkbox" name="language" value="HTML"> HTML </input><br>
-        <input type="checkbox" name="language" value="Javascript"> Javascript </input><br>
-        <input type="checkbox" name="language" value="PHP"> PHP </input><br> 
-        <input type="checkbox" name="language" value="CSS"> CSS </input> <br>   
+        <input type="checkbox" name="form[html]" value="html"> HTML </input><br>
+        <input type="checkbox" name="form[javascript]" value="javascript"> Javascript </input><br>
+        <input type="checkbox" name="form[php]" value="php"> PHP </input><br> 
+        <input type="checkbox" name="form[css]" value="css"> CSS </input> <br>   
     </div><br>
 
     <div>
         <label>Email:</label>
-        <input name="email" type="email">
+        <input name="form[email]" type="email">
     </div><br>
     
     <div>
         <label>Password:</label>
-        <input name="password" type="password">
+        <input name="form[password]" type="password">
     </div><br>
 
     <div>
         <label>Как часто хотите получать уведомления на почту:</label><br>
-        <input type="radio" name="notification" value="interests"> Интересы </input><br>
-        <input type="radio" name="notification" value="monthly"> Ежемесячно </input><br>
-        <input type="radio" name="notification" value="never"> Никогда </input><br>
+        <input type="radio" name="form[notification]" value="Каждый день"> Каждый день </input><br>
+        <input type="radio" name="form[notification]" value="Ежемесячно"> Ежемесячно </input><br>
+        <input type="radio" name="form[notification]" value="Никогда"> Никогда </input><br>
     </div><br>
 
     <div>
         <label>Ваше мнения о Codifun: </label><br>
-        <textarea cols="50" rows="10" name="review"></textarea>
+        <textarea cols="50" rows="10" name="form[review]"></textarea>
     </div>
 
     <p><input type="submit" value="Submit"></p>
