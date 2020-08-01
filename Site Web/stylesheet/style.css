@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
+
+.fa fa-user {
+    color: green;
+}
+
+.tech {
+    text-align: center;
+}
+
+.tech-shadow {
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    padding: 0px;
+    height: 500px
+}
+
+.name-pad {
+    padding-left: 10px;
+}
+
+.tech-shadow-top {
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5);  */
+    padding-top: 5px;
+}
+
+.photo-icon {
+    width: 265px;
+    height:400px;
+}
+
+.courses-box {
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    width: 300px !important;
+
+}
+
+.icon-color {
+    color: #ffffff
+}
+
+.btn btn-primary {
+    color: #ffffff
+}
+
+.vyrovnyat {
+    /* background: #fff5d7;  */
+    /* overflow: hidden;  */
+    /* text-align: center;  */
+    /* height: 7em; */
+    /* line-height: 7em;  */
+  }
+
+.tbl1 {
+    width: 10px;
+    vertical-align: middle;
+}
+
+.tbl2 {
+    width: 100px;
+}
