@@ -1,0 +1,59 @@
+.footer-color {
+    background-color: #100c0c;
+}
+
+.footer-button {
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    width: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+    
+}
+
+.footer-text h2 {
+    color: white;
+}
+
+.footer-link li {
+    list-style-type: none;
+    
+}
+
+.footer-link a {
+    color: gray;
+
+}
+
+.footer-link a:hover {
+    text-transform: none;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-email p {
+    list-style-type: none;
+}
+
+.footer-email a {
+    color: gray;
+}
+
+.footer-email a:hover {
+    text-transform: none;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-form {
+    background: transparent;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+}
+

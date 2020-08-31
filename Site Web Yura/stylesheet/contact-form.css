@@ -1,0 +1,19 @@
+#contact-form input[type='submit'] {
+    border-radius: 50px;
+    border: 1px solid transparent;
+}
+
+#contact-form input[type='submit']:hover {
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.contact-color {
+    background-color: #4d5ce6;
+}
+
+.contact-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
